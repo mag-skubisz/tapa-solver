@@ -1,0 +1,19 @@
+# Build artifacts
+*.o
+TapaSolver
+
+# Generated solver output
+grille.dimacs
+
+# Debug / coverage
+core
+core.*
+*.gcda
+*.gcno
+*.gcov
+
+# Editor / OS junk
+*~
+*.swp
+*.swo
+.DS_Store

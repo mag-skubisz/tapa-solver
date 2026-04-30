@@ -1,0 +1,34 @@
+Pré-requis:
+- compilateur C installé sur sa machine
+@ (eg: gcc, clang…) le Makefile prend le compilateur par défaut de la machine
+- Makefile installé sur sa machine
+@ (apt install make / apt install build-essential)
+
+(Pour les machines windows, il est recommandé d'installer wsl (windows subsystem linux) pour faire tourner le programme.)
+
+
+Le SAT-solver utilisé est picosat
+@ https://fmv.jku.at/picosat/
+
+Les modules picosat.c et picosat.h ont été copiés depuis l’archive https://fmv.jku.at/picosat/picosat-965.tar.gz
+
+Aucune installation du SAT solver n’est requise, les fichiers sont déjà présents dans l’archive fournie.
+
+
+
+COMPILATION :
+Pour compiler ou recompiler, copiez la commande suivante dans votre terminal à l’emplacement où l’archive a été extraite :
+make
+
+Pour pouvoir lancer le script qui execute tout les tests du jeu de test il est necessaire de copier et executer cette commande:
+chmod +x run_tests.sh
+@une seule fois
+
+Pour nettoyer les fichiers créés lors de la compilation :
+make clean
+
+Sources extérieures :
+Les grilles nommées <taille>x<taille>Normal<identifiant> et <taille>x<taille>Hard<identifiant>
+ont été extraites de https://www.puzzle-tapa.com/print.php
+SAT-solver :
+https://fmv.jku.at/picosat/

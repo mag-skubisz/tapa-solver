@@ -73,7 +73,6 @@ make clean
 | `2`  | 2×2 square constraint |
 | `i`  | Number clue constraints |
 | `c`  | Black cell continuity constraint |
-| `t`  | Run automated tests |
 
 Flags can be combined. For example, to enable all rules:
 ```bash

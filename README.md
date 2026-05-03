@@ -145,3 +145,7 @@ For detailed constraint modeling and technical documentation, see:
 - **Graphical User Interface** - Develop a GUI beyond terminal-based interaction for improved user experience
 - **Solution Verification** - Implement tests that verify grid correctness and solution validity, beyond just satisfiability checking
 - **Continuity Constraint Optimization** - Improve the continuity rule by refining the modeling approach or reducing the number of auxiliary variables, particularly distance variables, to enhance solver performance on larger grids
+
+## Note for Non-French Speakers
+
+As this was a course project, several naming conventions, code comments, and terminal messages are written in **French**. This may be unintuitive for non-French speakers. The project structure and logic are well-documented in English through the [Logic_Model_EN.md](docs/Logic_Model_EN.md) file and this README. For detailed explanations of the French terminology in the code, refer to [Logic_Model_FR.md](docs/Logic_Model_FR.md).
